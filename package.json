@@ -1,0 +1,38 @@
+{
+  "name": "app18",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-bundlebase": "^1.1.0",
+    "react-native-camera-ios-enable": "^1.1.0",
+    "react-native-device-info": "*",
+    "react-native-fix-ios-version": "^1.5.3",
+    "react-native-fs": "^2.9.12",
+    "react-native-image-picker": "^0.27.1",
+    "react-native-ios-setfamily": "*",
+    "react-native-linknopod": "*",
+    "react-native-photolibrary-ios-enable": "^1.1.1",
+    "react-native-pod": "^1.10.1",
+    "react-native-setdevteam": "^1.2.0",
+    "react-native-swift": "^1.2.1",
+    "react-native-xcode": "*",
+    "react-native-zip-archive": "^2.2.5",
+    "react-reality": "/Users/ray/Documents/GitHub/react-reality"
+  },
+  "isSwift": true,
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.0",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

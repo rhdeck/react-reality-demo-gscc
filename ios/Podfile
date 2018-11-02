@@ -1,0 +1,23 @@
+# Created by react-native-pod
+target 'app18' do
+  # We uncomment because we like dynamic frameworks witn working with swift projects
+  use_frameworks!
+  # Add new pods below this line
+  pod 'PocketSVG'
+
+  target 'app18Tests' do
+    inherit! :search_paths
+    # Pods for testing
+    # Add new pods below this line
+    pod 'PocketSVG'
+
+  end
+end
+target 'app18-tvOS' do
+  # We uncomment because we like dynamic frameworks witn working with swift projects
+  use_frameworks!
+  target 'app18-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
